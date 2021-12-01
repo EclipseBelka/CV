@@ -1,3 +1,3 @@
-# Git Test
+# Create CV 
 
-learn GIT
+Create CV for learn HTML and CSS
