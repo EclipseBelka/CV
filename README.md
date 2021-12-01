@@ -1,3 +1,3 @@
 # Git Test
 
-learn GIT jkjh
+learn GIT
