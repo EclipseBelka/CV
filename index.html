@@ -4,75 +4,77 @@
 <head>
     <meta charset="UTF-8">
     <title>EclipSe</title>
+    <link href='styles.css' rel="stylesheet" />
 </head>
 
 <body>
-    <table>
-        <tr>
-            <td> <img src="avatar.jpg" width="200" alt='Тут мой аватар' /></td>
-            <td>
-                <h1>Maksim Belkin</h1>
-                <p> Я занимаюсь самоизучением <strong> JavaScript/React</strong> </p>
-                <p>Я хочу стать <em>FrontEnd Developer</em></p>
-            </td>
-        </tr>
-    </table>
+    <div class="container">
+        <div class='info'>
+            <img src="avatar.jpg" alt='Тут мой аватар' class='avatar' />
 
-    <hr>
-    <h2>Мои социальные сети</h2>
-    <ul>
-        <LI><a href="https://www.instagram.com/maks_bellka/" target='_blank'>Instagram</a></LI>
+            <h1>Maksim Belkin</h1>
+            <p> Я занимаюсь самоизучением <strong> JavaScript/React</strong> </p>
+            <p>Я хочу стать FrontEnd Developer</p>
 
-        <LI><a href="https://vk.com/maks_sojiar_belka" target='_blank'>VK</a></LI>
+        </div>
 
-    </ul>
-    <hr>
-    <h2> Мои хобби</h2>
-    <ol>
-        <li>Рыбалка</li>
-        <li>Heartstone</li>
+        <hr>
+        <div class="social">
+            <h2>Мои социальные сети</h2>
+            <ul>
+                <LI><a href="https://www.instagram.com/maks_bellka/" target='_blank'>Instagram</a></LI>
 
-    </ol>
-    <hr>
-    <h2>Опыт работы</h2>
-    <table>
-        <tr>
-            <td>Место работы</td>
-            <td>Должность</td>
-            <td>Год</td>
-        </tr>
-        <tr>
-            <td>Окна ПВХ</td>
-            <td>Менеджер по продажам</td>
-            <td>2016-2019</td>
-        </tr>
-        <tr>
-            <td>Натяжные потолки</td>
-            <td>Мастер по монтажу</td>
-            <td>2019-2021</td>
-        </tr>
-    </table>
-    <hr>
-    <h2>Связяться со мной</h2>
-    <form action="/">
-        <label for="name">Ваше имя</label>
-        <input type="text" id='name' placeholder="Введите ваше имя">
-        <br>
-        <label for="email">Ваш Email</label>
-        <input type="email" id='email' placeholder="Введите ваш Email">
+                <LI><a href="https://vk.com/maks_sojiar_belka" target='_blank'>VK</a></LI>
 
+            </ul>
+        </div>
+        <hr>
+        <h2> Мои хобби</h2>
+        <ol>
+            <li>Рыбалка</li>
+            <li>Heartstone</li>
 
-        <br>
-        <label for="text">Ваше сообщение:</label>
-        <br>
-        <textarea id="text" cols="30" rows="4"></textarea>
-        <br>
-        <input type="submit" value='Связаться'>
+        </ol>
+        <hr>
+        <h2>Опыт работы</h2>
+        <table>
+            <tr>
+                <td>Место работы</td>
+                <td>Должность</td>
+                <td>Год</td>
+            </tr>
+            <tr>
+                <td>Окна ПВХ</td>
+                <td>Менеджер по продажам</td>
+                <td>2016-2019</td>
+            </tr>
+            <tr>
+                <td>Натяжные потолки</td>
+                <td>Мастер по монтажу</td>
+                <td>2019-2021</td>
+            </tr>
+        </table>
+        <hr>
+        <h2>Связяться со мной</h2>
+        <form action="/">
+            <label for="name">Ваше имя</label>
+            <input type="text" id='name' placeholder="Введите ваше имя">
+            <br>
+            <label for="email">Ваш Email</label>
+            <input type="email" id='email' placeholder="Введите ваш Email">
 
 
+            <br>
+            <label for="text">Ваше сообщение:</label>
+            <br>
+            <textarea id="text" cols="30" rows="4"></textarea>
+            <br>
+            <input type="submit" value='Связаться'>
 
-    </form>
 
+
+        </form>
+    </div>
 </body>
 
 
